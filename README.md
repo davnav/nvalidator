@@ -7,6 +7,15 @@ The napi s functions are built using a framework called https://napi.rs/
 The Rust napi functions will be in the src folder.
 test.mjs is the file used to test the exported functions.
 
+**Use Rust addon functions in node**
+```javascript
+    
+    import { isValidCard,isJson,isCurrency,isPhonenumber } from './index.js'
+        
+    const card_number = "5236313877109142";
+    console.log( isValidCard(card_number));
+```
+
 
 **Building :**
 
