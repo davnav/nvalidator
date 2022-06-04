@@ -1,0 +1,25 @@
+[package]
+edition = "2021"
+name = "nvalidator"
+version = "0.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
+napi = { version = "2.4.3", default-features = false, features = ["napi4"] }
+napi-derive = "2.4.1"
+card-validate = "2.2.2"
+serde_derive = "1.0.137"
+serde = "1.0.137"
+json = "0.12.4"
+iso_currency = { version = "0.4.1", features = ["with-serde"] }
+phonenumber = "0.3.1+8.12.9"
+
+
+[build-dependencies]
+napi-build = "2.0.0"
+
+[profile.release]
+lto = true

@@ -1,0 +1,18 @@
+{
+  "name": "nvalidator-win32-x64-msvc",
+  "version": "0.0.0",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "nvalidator.win32-x64-msvc.node",
+  "files": [
+    "nvalidator.win32-x64-msvc.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
