@@ -236,9 +236,11 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { isValidCard, isCurrency, isJson, isPhonenumber } = nativeBinding
+const { isValidCard, isCurrency, isUpc, isGtin13, isJson, isPhonenumber } = nativeBinding
 
 module.exports.isValidCard = isValidCard
 module.exports.isCurrency = isCurrency
+module.exports.isUpc = isUpc
+module.exports.isGtin13 = isGtin13
 module.exports.isJson = isJson
 module.exports.isPhonenumber = isPhonenumber

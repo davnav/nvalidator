@@ -1,5 +1,5 @@
 
-import { isValidCard,isJson,isCurrency,isPhonenumber } from './index.js'
+import { isValidCard,isJson,isCurrency,isPhonenumber,isUpc } from './index.js'
 const card_number = "5236313877109142";
 
 const obj = 
@@ -26,3 +26,6 @@ console.log( isCurrency('AAA'));
 console.log( isCurrency('INR'));
 
 console.log(isPhonenumber("9446528807","IN"));
+
+console.log(isUpc("123456789012"));
+console.log(isUpc("123456789011"));
