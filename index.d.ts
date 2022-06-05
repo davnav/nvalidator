@@ -9,3 +9,5 @@ export function isUpc(num: string): boolean
 export function isGtin13(num: string): boolean
 export function isJson(obj: string): boolean
 export function isPhonenumber(number: string, countryCode: string): boolean
+export function isUSzipCode(code: string): boolean
+export function isPostalCode(code: string, country: string): boolean

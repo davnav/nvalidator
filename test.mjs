@@ -1,5 +1,5 @@
 
-import { isValidCard,isJson,isCurrency,isPhonenumber,isUpc } from './index.js'
+import { isValidCard,isJson,isCurrency,isPhonenumber,isUpc,isUSzipCode,isPostalCode } from './index.js'
 const card_number = "5236313877109142";
 
 const obj = 
@@ -29,3 +29,6 @@ console.log(isPhonenumber("9446528807","IN"));
 
 console.log(isUpc("123456789012"));
 console.log(isUpc("123456789011"));
+console.log(isUSzipCode("10465"));
+console.log(isUSzipCode("V5B 0A1"));
+console.log(isPostalCode("V5B 0A1","CA"));
