@@ -1,5 +1,5 @@
 # nvalidator
-![nvalidator]("https://imgur.com/WWMUOV5")
+![nvalidator](https://imgur.com/WWMUOV5)
 
 napi addons for validator functions for Node.js applications using Rust. inspired from https://github.com/validatorjs
 The napi s functions are built using a framework called https://napi.rs/  
