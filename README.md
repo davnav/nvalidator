@@ -9,6 +9,9 @@ The Rust napi functions will be in the src folder.
 test.mjs is the file used to test the exported functions.
 
 **Use Rust addon functions in node**
+
+Your node program would something like _test.mjs_ . You can import the rust made functions into the file using import as shown below.
+
 ```javascript
     
     import { isValidCard,isJson,isCurrency,isPhonenumber } from './index.js'
