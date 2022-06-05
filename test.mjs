@@ -32,3 +32,4 @@ console.log(isUpc("123456789011"));
 console.log(isUSzipCode("10465"));
 console.log(isUSzipCode("V5B 0A1"));
 console.log(isPostalCode("V5B 0A1","CA"));
+console.log(isPostalCode("12234","AT"));
